@@ -9,20 +9,22 @@
   <body>
     <header class="row">
       <div class="col-3">
-        <div class = "circle">
-          <br />
-            YOU CAN
-          <br />
-            QUOTE ME
-          <br />
-            ON THAT
-        </div>
+        <%= link_to root_path, class: 'logo' do %>
+          <div class = "circle">
+            <br />
+              YOU <span style="color:#94373e;">CANT</span>
+            <br />
+              QUOTE ME
+            <br />
+              ON THAT
+          </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
-        "One musn't believe all that they read on the internet..." <em>-Socrates</em>
+        "One musn't believe all that they read on the internet..." <br><em>-Socrates</em>
       </div>
       <div class="col-5 links">
-        <%= link_to 'Contribute', '#' %>
+        <%= link_to 'Contribute', new_quote_path %>
         <%= link_to 'About', '#' %>
       </div>
     </header>
@@ -38,11 +40,11 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-                <div class="col-6 footer-blurb-one">
-        <%= link_to "More completely real quotes, please!", "#", class: 'next_quote'%>
+                <div class="col-6 footer-blurb">
+        <%= link_to "More completely real quotes, please!", root_path, class: 'next_quote'%>
       </div>
-      <div class="col-6 footer-blurb-two">
-        Proudly stapled together by <a href="[YOUR_PORTFOLIO_URL]">Bryce</a><br />
+      <div class="col-6 footer-blurb-one">
+        <span style="text-align:right;">Proudly stapled together by <a href="[YOUR_PORTFOLIO_URL]">Bryce</a></span><br />
       </div>
         </div>
       </div>
