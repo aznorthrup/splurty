@@ -1,5 +1,5 @@
 @import "bootstrap";
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 .clear{
     clear: both;
 }
@@ -8,8 +8,8 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #262682;
-    border: 1px solid #000000;
+    background: #627194;
+    border: 2px solid #292e3b;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
@@ -40,4 +40,25 @@ header{
 }
 hr{
     clear: both;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+.next_quote{
+    color: #9c6879;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.footer-blurb-one{
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    text-align: left;
+    font-size: 12px;
+}
+.footer-blurb-two{
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    text-align: right;
+    font-size: 12px;
 }

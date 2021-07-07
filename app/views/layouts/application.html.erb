@@ -30,7 +30,22 @@
     <hr />
 
     <br class="clear" />
+    <div class="container">
+      <%= yield %>
+    </div>
 
-    <%= yield %>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+                <div class="col-6 footer-blurb-one">
+        <%= link_to "More completely real quotes, please!", "#", class: 'next_quote'%>
+      </div>
+      <div class="col-6 footer-blurb-two">
+        Proudly stapled together by <a href="[YOUR_PORTFOLIO_URL]">Bryce</a><br />
+      </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
