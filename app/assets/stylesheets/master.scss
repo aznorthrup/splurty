@@ -28,6 +28,11 @@
     padding-top: 26px;
     color: #94373e;
 }
+.about{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
 .links{
     padding-top: 26px;
     padding-left: 50px;
@@ -69,4 +74,11 @@ h2{
 }
 .logo:hover{
     text-decoration: none;
+}
+.me{
+    display:  block;
+	margin-left: auto;
+	margin-right: auto;
+    height:  25%;
+    margin-bottom: 10px;
 }
